@@ -1,0 +1,106 @@
+body
+  font-size: 10px
+  +mr
+
+.h
+  +mb
+
+
+.h2
+  +meb
+  font-size: 2.8em
+  line-height: 31px
+
+.h3
+  +mb
+  font-size: 2.4em
+  line-height: 29px
+
+.h4
+  +mb
+  font-size: 1.6em
+  
+.h5
+  +mb
+  font-size: 1.3em
+  letter-spacing: 0.02em
+    
+.p1
+  font-size: 1.6em
+  line-height: 23px
+  color: #808285
+
+.p2
+  font-size: 1.4em
+  line-height: 21px
+  color: #808285
+
+.black
+  color: #000000
+
+
+.btn
+  padding: 15px 20px
+  +mb
+  font-size: 1.3em
+  text-decoration: none
+  text-transform: uppercase
+  color: #000000  
+  background: transparent
+  border: 2px $red solid
+  border-radius: 8px
+  &-white
+    background: #ffffff
+    border: 2px #ffffff solid
+  &-hero
+    display: flex
+    max-width: 240px
+    align-items: center
+    img
+      display: inline-block
+      max-width: 6px
+      max-height: 10px
+      margin-left: 10px
+      transform: rotate(-90deg)
+  &-example
+    padding-left: 0
+    background: transparent
+    border: none
+  &-form 
+    min-width: 188px
+    padding: 15px 20px
+    +mb
+    font-size: 1.2em
+    text-transform: uppercase
+    border: 1px solid $grey
+    border-radius: 8px
+    cursor: pointer
+    &-submit
+      margin-top: 20px
+
+    
+        
+        
+
+@media (max-width: 992px)
+  body
+    font-size: 9px
+  .btn-hero
+    max-width: 220px
+    
+  
+
+@media (max-width: 768px)
+  body
+    font-size: 8px
+
+@media (max-width: 600px)
+  body
+    font-size: 7px
+  .p1
+    line-height: 17px
+  .h2
+    line-height: 22px
+  .btn-hero
+    max-width: 185px
+    
