@@ -1,91 +1,218 @@
 @font-face {
-  font-family: 'MR';
-  src: url('../fonts/Montserrat-Regular.eot');
-  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-      url('../fonts/Montserrat-Regular.woff') format('woff'),
-      url('../fonts/Montserrat-Regular.ttf') format('truetype'),
-      url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
-  font-weight: normal;
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Black.woff2') format('woff2'),
+      url('../fonts/Roboto-Black.woff') format('woff'),
+      url('../fonts/Roboto-Black.ttf') format('truetype'),
+      url('../fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+  font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MSB';
-  src: url('../fonts/Montserrat-SemiBold.eot');
-  src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-      url('../fonts/Montserrat-SemiBold.woff') format('woff'),
-      url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
-      url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MB';
-  src: url('../fonts/Montserrat-Bold.eot');
-  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-      url('../fonts/Montserrat-Bold.woff') format('woff'),
-      url('../fonts/Montserrat-Bold.ttf') format('truetype'),
-      url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MM';
-  src: url('../fonts/Montserrat-Medium.eot');
-  src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-Medium.woff2') format('woff2'),
-      url('../fonts/Montserrat-Medium.woff') format('woff'),
-      url('../fonts/Montserrat-Medium.ttf') format('truetype'),
-      url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Medium.woff2') format('woff2'),
+      url('../fonts/Roboto-Medium.woff') format('woff'),
+      url('../fonts/Roboto-Medium.ttf') format('truetype'),
+      url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MEB';
-  src: url('../fonts/Montserrat-ExtraBold.eot');
-  src: url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
-      url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
-      url('../fonts/Montserrat-ExtraBold.ttf') format('truetype'),
-      url('../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
-  font-weight: 800;
+  font-family: 'Roboto-regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff'),
+      url('../fonts/Roboto-Regular.ttf') format('truetype'),
+      url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'TT Norms Pro';
-  src: url('../fonts/TTNormsPro-Regular.eot');
-  src: url('../fonts/TTNormsPro-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/TTNormsPro-Regular.woff2') format('woff2'),
-      url('../fonts/TTNormsPro-Regular.woff') format('woff'),
-      url('TTNormsPro-Regular.ttf') format('truetype'),
-      url('../fonts/TTNormsPro-Regular.svg#TTNormsPro-Regular') format('svg');
+  font-family: 'Roboto Bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff'),
+      url('../fonts/Roboto-Bold.ttf') format('truetype'),
+      url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto light';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Roboto-Light.woff2') format('woff2'),
+      url('../fonts/Roboto-Light.woff') format('woff'),
+      url('../fonts/Roboto-Light.ttf') format('truetype'),
+      url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Old Standard TT Bold';
+  src: url('../fonts/OldStandardTT-Bold.eot');
+  src: url('../fonts/OldStandardTT-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OldStandardTT-Bold.woff2') format('woff2'),
+      url('../fonts/OldStandardTT-Bold.woff') format('woff'),
+      url('../fonts/OldStandardTT-Bold.ttf') format('truetype'),
+      url('../fonts/OldStandardTT-Bold.svg#OldStandardTT-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Old Standard TT Regular';
+  src: url('../fonts/OldStandardTT-Regular.eot');
+  src: url('../fonts/OldStandardTT-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OldStandardTT-Regular.woff2') format('woff2'),
+      url('../fonts/OldStandardTT-Regular.woff') format('woff'),
+      url('../fonts/OldStandardTT-Regular.ttf') format('truetype'),
+      url('../fonts/OldStandardTT-Regular.svg#OldStandardTT-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 
-@mixin mr {
-    font-family: 'MR', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: url('../fonts/OpenSansCondensed-Light.eot');
+  src: url('../fonts/OpenSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+      url('../fonts/OpenSansCondensed-Light.woff') format('woff'),
+      url('../fonts/OpenSansCondensed-Light.ttf') format('truetype'),
+      url('../fonts/OpenSansCondensed-Light.svg#OpenSansCondensed-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
-@mixin mm {
-    font-family: 'MM', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans Condensed Bold';
+  src: url('../fonts/OpenSansCondensed-Bold.eot');
+  src: url('../fonts/OpenSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+      url('../fonts/OpenSansCondensed-Bold.woff') format('woff'),
+      url('../fonts/OpenSansCondensed-Bold.ttf') format('truetype'),
+      url('../fonts/OpenSansCondensed-Bold.svg#OpenSansCondensed-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
 }
-@mixin msb {
-    font-family: 'MSB', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans SemiBold';
+  src: url('../fonts/OpenSans-SemiBold.eot');
+  src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+      url('../fonts/OpenSans-SemiBold.ttf') format('truetype'),
+      url('../fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
 }
-@mixin mb {
-    font-family: 'MB', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('../fonts/OpenSans-Regular.woff') format('woff'),
+      url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+      url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-@mixin meb {
-    font-family: 'MEB', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('../fonts/OpenSans-Bold.woff') format('woff'),
+      url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+      url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
 }
-@mixin tt {
-    font-family: 'TT Norms Pro', sans-serif;
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../fonts/OpenSans-Light.eot');
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Light.woff2') format('woff2'),
+      url('../fonts/OpenSans-Light.woff') format('woff'),
+      url('../fonts/OpenSans-Light.ttf') format('truetype'),
+      url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Ebold';
+  src: url('../fonts/OpenSans-ExtraBold.eot');
+  src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+      url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+      url('../fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+@mixin robBk {
+    font-family: 'Roboto-Black', sans-serif;
+}
+@mixin robM {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+@mixin robR {
+    font-family: 'Roboto-regular', sans-serif;
+}
+@mixin robBd {
+    font-family: 'Roboto-Bold', sans-serif;
+}
+@mixin robL {
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+
+@mixin oldB {
+    font-family: 'Old Standard TT Bold', sans-serif;
+}
+@mixin oldR {
+    font-family: 'Old Standard TT Regular', sans-serif;
+}
+
+@mixin oscL {
+    font-family: 'Open Sans Condensed Light', sans-serif;
+}
+@mixin oscB {
+    font-family: 'Open Sans Condensed Bold', sans-serif;
+}
+
+@mixin osSB {
+    font-family: 'Open Sans SemiBold', sans-serif;
+}
+@mixin osR {
+    font-family: 'Open Sans Regular', sans-serif;
+}
+@mixin osB {
+    font-family: 'Open Sans Bold', sans-serif;
+}
+@mixin osL {
+    font-family: 'Open Sans Light', sans-serif;
+}
+@mixin osEB {
+    font-family: 'Open Sans Ebold', sans-serif;
 }

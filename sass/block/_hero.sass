@@ -1,0 +1,40 @@
+.hero
+    &-slider
+        &__box
+            padding-top: 150px
+            padding-bottom: 70px
+            &-title
+                position: relative
+                margin-bottom: 30px
+                +oldB
+                font-size: 9em
+                color: darken($brown, 15)
+                line-height: 80px
+                &::before
+                    content: ''
+            &-link
+                padding: 10px 20px
+                background: #D5FF2F
+                color: darken($brown, 15)
+                text-decoration: none
+                text-transform: uppercase
+                font-size: 1.6em
+                +oscB
+                letter-spacing: 4px
+                &:hover
+                    background: $brown
+                    color: #ffffff
+                span
+                    font-size: 1.5em
+            &_1
+                background: url('../images/hero-slider-1.webp')center no-repeat
+                background-size: cover
+    &__slider-wrap
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-left: auto
+        margin-right: 0
+    &__title-img
+        margin-left: 50px
+    

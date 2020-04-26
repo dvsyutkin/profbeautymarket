@@ -1,0 +1,22 @@
+.nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 10px
+    &__list
+        display: flex
+        +osSB
+        font-size: 1.4em
+        margin-left: 20px
+    &__item
+        margin-right: 25px
+    &__link
+        color: #000000
+        text-decoration: none
+        &_more
+            span
+                display: inline-block
+                transform: rotate(-90deg)
+    &__search
+        img
+            height: 16px

@@ -1,0 +1,50 @@
+.header
+    padding: 10px 0
+    &-top
+        border-bottom: 1px solid #ebedf0
+    &-wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-bottom: 10px
+    &-box
+        display: flex
+        align-items: center
+        &__icon
+            img
+                height: 36px
+    &__text
+        &-box
+            margin-left: 10px
+        &-title
+            +osB
+            font-size: 1.6em
+            margin-bottom: 8px
+        &-text
+            font-size: 1.4em
+            a
+                text-decoration: none
+                color: #000000
+                &:hover
+                    color: $primary
+    &-cart
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        &__title
+            font-size: 1.4em
+            margin-bottom: 9px
+        &__link
+            padding: 7px 20px
+            background: #D6C7FE
+            text-decoration: none
+            text-transform: uppercase
+            color: #000000
+            border-radius: 5px
+            font-size: 1.7em
+            span
+                color: $brown
+                font-size: 1.2em
+            &:hover
+                 background: darken(#D6C7FE, 10)
