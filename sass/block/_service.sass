@@ -1,0 +1,38 @@
+.service
+    margin-top: 70px
+    &__wrap
+        display: flex
+        justify-content: space-between
+    &__card
+        width: 32%
+        height: 260px
+        &__img
+            width: 100%
+            &-box
+                img: 100%
+        &-img      
+            min-height: 260px 
+            &_1
+                background: url('../images/service-1.jpg')center no-repeat
+                background-size: cover
+            &_2
+                background: url('../images/service-2.jpg')center no-repeat
+                background-size: cover
+            &_3
+                background: url('../images/service-3.jpg')center no-repeat
+                background-size: cover
+        &-title
+            +oscB
+            color: $brown
+            font-size: 1.8em
+            text-transform: uppercase
+            letter-spacing: 2px
+            text-align: center
+        &-desc
+            margin: 12px 0
+            font-size: 1.2em
+            text-transform: uppercase
+            +osR
+            text-align: center
+            color: #adadad
+        
