@@ -7,27 +7,27 @@ window.addEventListener('DOMContentLoaded', function () {
         nav: false,
         dots: false,
         items: 5,
-        loop: true
-        // responsive: {
-        //     0: {
-        //         center: true,
-        //         margin: 32,
-        //         items: 2,
-        //         loop: true,
-        //     },
-        //     720: {
-        //         margin: 16,
-        //         items: 5
-        //     },
-        //     960: {
-        //         margin: 34,
-        //         items: 4
-        //     },
-        //     1440: {
-        //         margin: 10,
-        //         items: 5
-        //     }
-        // },
+        loop: true,
+        responsive: {
+            0: {
+                center: true,
+                margin: 0,
+                items: 1,
+                loop: true,
+            },
+            720: {
+                margin: 16,
+                items: 3
+            },
+            960: {
+                margin: 34,
+                items: 5
+            },
+            1440: {
+                margin: 10,
+                items: 5
+            }
+        },
 
     }));
 
@@ -50,27 +50,21 @@ window.addEventListener('DOMContentLoaded', function () {
         dots: false,
         margin: 20,
         items: 4,
-        loop: true
-        // responsive: {
-        //     0: {
-        //         center: true,
-        //         margin: 32,
-        //         items: 2,
-        //         loop: true,
-        //     },
-        //     720: {
-        //         margin: 16,
-        //         items: 5
-        //     },
-        //     960: {
-        //         margin: 34,
-        //         items: 4
-        //     },
-        //     1440: {
-        //         margin: 10,
-        //         items: 5
-        //     }
-        // },
+        loop: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            720: {
+                items: 2
+            },
+            960: {
+                items: 3
+            },
+            1440: {
+                items: 4
+            }
+        },
 
     }));
     
@@ -111,11 +105,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
     }));
     
-
     const sliderHero = $('.hero-slider .owl-carousel');
     sliderHero.owlCarousel($.extend({}, {
         nav: false,
-        dots: false,
+        dots: true,
         items: 1,
         loop: true
     }));
