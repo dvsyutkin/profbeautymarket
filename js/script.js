@@ -112,5 +112,13 @@ window.addEventListener('DOMContentLoaded', function () {
     }));
     
 
+    const sliderHero = $('.hero-slider .owl-carousel');
+    sliderHero.owlCarousel($.extend({}, {
+        nav: false,
+        dots: false,
+        items: 1,
+        loop: true
+    }));
+
 
 });
