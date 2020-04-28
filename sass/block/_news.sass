@@ -7,9 +7,17 @@
         border-bottom: 1px solid #ebedf0
     &__title
         margin-top: 20px
+    &__link
         +osSB
         font-size: 1.8em
         color: $brown
+        text-decoration: none
+        &:hover
+            color: $green
+        &-img img
+            transition: 0.4s
+            &:hover
+                opacity: 0.8
     &__date
         margin-top: 20px
         color: $grey
