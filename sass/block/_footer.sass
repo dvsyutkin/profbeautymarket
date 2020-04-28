@@ -1,0 +1,44 @@
+.footer
+    padding: 50px 0
+    border-top: 1px solid #ebedf0
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.1)
+    &__wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        width: 200px
+        img
+            width: 100%
+    &__contacts
+        &-box
+            display: flex
+            align-items: center
+    &__address, &__separ, &__phone
+        font-size: 1.3em
+        color: #000000
+        text-decoration: none
+    &__separ
+        margin: 0 10px
+        &_nav
+            color: $grey
+    &__soc
+        text-align: center
+        img
+            transition: 0.4s
+            &:hover
+                opacity: 0.8
+    
+    &__nav
+        display: flex
+        &-link
+            text-decoration: none
+            color: $grey
+            font-size: 1.3em
+            transition: 0.4s
+            &:hover
+                color: #000000
+
+    &__copy
+        margin-top: 10px
+        font-size: 1.3em

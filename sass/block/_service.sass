@@ -8,9 +8,10 @@
         &__img
             width: 100%
             &-box
-                img: 100%
         &-img      
-            min-height: 652px 
+            position: relative
+            min-height: 260px 
+            overflow: hidden
             &_1
                 background: url('../images/service-1.jpg')center no-repeat
                 background-size: cover
@@ -20,6 +21,9 @@
             &_3
                 background: url('../images/service-3.jpg')center no-repeat
                 background-size: cover
+            &:hover
+                .service-btn
+                    top: 45%
         &-title
             +oscB
             color: $brown
@@ -34,6 +38,13 @@
             +osR
             text-align: center
             color: #adadad
+    &-btn
+        position: absolute
+        top: -20%
+        left: 50%
+        width: 197px
+        transform: translate(-50%)
+        transition: 0.7s
         
 @media (max-width: 768px)
     .service__wrap
