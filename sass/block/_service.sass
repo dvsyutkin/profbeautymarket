@@ -3,15 +3,29 @@
     &__wrap
         display: flex
         justify-content: space-between
+        margin-bottom: 30px
     &__card
+        position: relative
         width: 32%
+        
         &__img
             width: 100%
             &-box
         &-img      
+            z-index: 9
             position: relative
             min-height: 260px 
             overflow: hidden
+            &::after
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                background: rgba(0,0,0,0.4)
+                transition: 0.8s ease
+                opacity: 0
             &_1
                 background: url('../images/service-1.jpg')center no-repeat
                 background-size: cover
@@ -23,7 +37,9 @@
                 background-size: cover
             &:hover
                 .service-btn
-                    top: 45%
+                    opacity: 1
+            &:hover::after
+                opacity: 1                
         &-title
             +oscB
             color: $brown
@@ -39,12 +55,15 @@
             text-align: center
             color: #adadad
     &-btn
+        z-index: 999
         position: absolute
-        top: -20%
+        top: 60%
         left: 50%
         width: 197px
         transform: translate(-50%)
-        transition: 0.7s
+        transition: 0.7s ease
+        opacity: 0
+
         
 @media (max-width: 768px)
     .service__wrap
