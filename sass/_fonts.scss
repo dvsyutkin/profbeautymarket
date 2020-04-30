@@ -58,29 +58,29 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Old Standard TT Bold';
-  src: url('../fonts/OldStandardTT-Bold.eot');
-  src: url('../fonts/OldStandardTT-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/OldStandardTT-Bold.woff2') format('woff2'),
-      url('../fonts/OldStandardTT-Bold.woff') format('woff'),
-      url('../fonts/OldStandardTT-Bold.ttf') format('truetype'),
-      url('../fonts/OldStandardTT-Bold.svg#OldStandardTT-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Old Standard TT Bold';
+//   src: url('../fonts/OldStandardTT-Bold.eot');
+//   src: url('../fonts/OldStandardTT-Bold.eot?#iefix') format('embedded-opentype'),
+//       url('../fonts/OldStandardTT-Bold.woff2') format('woff2'),
+//       url('../fonts/OldStandardTT-Bold.woff') format('woff'),
+//       url('../fonts/OldStandardTT-Bold.ttf') format('truetype'),
+//       url('../fonts/OldStandardTT-Bold.svg#OldStandardTT-Bold') format('svg');
+//   font-weight: bold;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: 'Old Standard TT Regular';
-  src: url('../fonts/OldStandardTT-Regular.eot');
-  src: url('../fonts/OldStandardTT-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/OldStandardTT-Regular.woff2') format('woff2'),
-      url('../fonts/OldStandardTT-Regular.woff') format('woff'),
-      url('../fonts/OldStandardTT-Regular.ttf') format('truetype'),
-      url('../fonts/OldStandardTT-Regular.svg#OldStandardTT-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Old Standard TT Regular';
+//   src: url('../fonts/OldStandardTT-Regular.eot');
+//   src: url('../fonts/OldStandardTT-Regular.eot?#iefix') format('embedded-opentype'),
+//       url('../fonts/OldStandardTT-Regular.woff2') format('woff2'),
+//       url('../fonts/OldStandardTT-Regular.woff') format('woff'),
+//       url('../fonts/OldStandardTT-Regular.ttf') format('truetype'),
+//       url('../fonts/OldStandardTT-Regular.svg#OldStandardTT-Regular') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 
 
@@ -180,19 +180,19 @@
     font-family: 'Roboto-regular', sans-serif;
 }
 @mixin robBd {
-    font-family: 'Roboto-Bold', sans-serif;
+    font-family: 'Roboto Bold', sans-serif;
 }
 @mixin robL {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Roboto light', sans-serif;
 }
 
 
-@mixin oldB {
-    font-family: 'Old Standard TT Bold', sans-serif;
-}
-@mixin oldR {
-    font-family: 'Old Standard TT Regular', sans-serif;
-}
+// @mixin oldB {
+//     font-family: 'Old Standard TT Bold', sans-serif;
+// }
+// @mixin oldR {
+//     font-family: 'Old Standard TT Regular', sans-serif;
+// }
 
 @mixin oscL {
     font-family: 'Open Sans Condensed Light', sans-serif;
