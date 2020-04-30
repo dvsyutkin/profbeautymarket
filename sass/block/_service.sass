@@ -35,6 +35,16 @@
             &_3
                 background: url('../images/service-3.jpg')center no-repeat
                 background-size: cover
+
+            &_4
+                background: url('../images/service-4.jpg')center no-repeat
+                background-size: cover
+            &_5
+                background: url('../images/service-5.jpg')center no-repeat
+                background-size: cover
+            &_6
+                background: url('../images/service-6.jpg')center no-repeat
+                background-size: cover
             &:hover
                 .service-btn
                     opacity: 1
@@ -62,8 +72,16 @@
         width: 238px
         text-align: center
         transform: translate(-50%)
-        transition: 0.7s ease
         opacity: 0
+        // от класса hero-slider__box-link
+        padding: 10px 20px
+        background: #D5FF2F
+        color: darken($brown, 15)
+        text-decoration: none
+        text-transform: uppercase
+        font-size: 1.6em
+        +oscB
+        letter-spacing: 4px
 
         
 @media (max-width: 768px)
